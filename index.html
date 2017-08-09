@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Global Game Jam 2017</title>
+	<script type="text/javascript" src="js/phaser.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/creditos.js"></script>
+	<script type="text/javascript" src="js/player_selection.js"></script>
+	<script type="text/javascript" src="js/player_one_history.js"></script>
+	<script type="text/javascript" src="js/player_two_history.js"></script>
+	<script type="text/javascript" src="js/player_one_wins.js"></script>
+	<script type="text/javascript" src="js/player_two_wins.js"></script>
+	<script type="text/javascript" src="js/intro.js"></script>
+</head>
+<style type="text/css">
+	canvas {   
+		 display : block;
+	   margin : auto;
+	   margin-top: 100px;
+
+	 }
+
+	body{
+	
+
+	}
+</style>
+<body style="position: relative;">
+	<script type="text/javascript">
+
+
+		var game = new Phaser.Game(800, 600, Phaser.AUTO, 'phaser-example', { preload: preload, create: create, update: update });
+
+		 game.state.add("main",main);
+		 game.state.add("menu",menu);
+		 game.state.add("creditos",creditos);
+		 game.state.add('player_selection',player_selection);
+		 game.state.add('player_one_history', player_one_history);
+		 game.state.add('player_two_history', player_two_history);
+		 game.state.add('player_one_wins', player_one_wins);
+		 game.state.add('player_two_wins', player_two_wins);
+		 game.state.add('intro', intro);
+
+		function preload() {
+
+		    //game.load.image('stars', 'assets/misc/starfield.jpg');
+		    game.load.spritesheet('square', 'assets/square.png', 32, 32);
+	
+		}
+
+		var square;
+
+		function create() {
+				game.state.start("menu");
+		    game.physics.startSystem(Phaser.Physics.P2JS);
+
+		    square = game.add.sprite(200, 200, 'square');
+		
+		    //  Create our physics body. A circle assigned the playerCollisionGroup
+		    game.physics.p2.enable(square);
+
+		    square.body.setCircle(28);
+
+		    //  This boolean controls if the player should collide with the world bounds or not
+		    square.body.collideWorldBounds = true;
+
+		    cursors = game.input.keyboard.createCursorKeys();
+
+		}
+
+		function update() {
+
+		    square.body.setZeroVelocity();
+
+		    if (cursors.left.isDown)
+		    {
+				square.body.moveLeft(200);
+		    }
+		    else if (cursors.right.isDown)
+		    {
+				square.body.moveRight(200);
+		    }
+
+		    if (cursors.up.isDown)
+		    {
+		    	square.body.moveUp(200);
+		    }
+		    else if (cursors.down.isDown)
+		    {
+		        square.body.moveDown(200);
+		    }
+
+		}
+
+		</script>
+	</body>
+	</html>

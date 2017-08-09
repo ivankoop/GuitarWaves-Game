@@ -1,0 +1,132 @@
+{"frames": [
+
+{
+	"filename": "background.png",
+	"frame": {"x":0,"y":0,"w":800,"h":600},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":600},
+	"sourceSize": {"w":800,"h":600}
+},
+{
+	"filename": "pared/animation/mitad rayo.png",
+	"frame": {"x":800,"y":0,"w":40,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":700},
+	"sourceSize": {"w":40,"h":700}
+},
+{
+	"filename": "pared/animation/mitad rayo2.png",
+	"frame": {"x":840,"y":0,"w":40,"h":700},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":700},
+	"sourceSize": {"w":40,"h":700}
+},
+{
+	"filename": "people/animation/a1.png",
+	"frame": {"x":0,"y":700,"w":499,"h":264},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":499,"h":264},
+	"sourceSize": {"w":499,"h":264}
+},
+{
+	"filename": "people/animation/a2.png",
+	"frame": {"x":499,"y":700,"w":499,"h":264},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":499,"h":264},
+	"sourceSize": {"w":499,"h":264}
+},
+{
+	"filename": "people2/animation/a1.png",
+	"frame": {"x":0,"y":964,"w":499,"h":264},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":499,"h":264},
+	"sourceSize": {"w":499,"h":264}
+},
+{
+	"filename": "people2/animation/a2.png",
+	"frame": {"x":499,"y":964,"w":499,"h":264},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":499,"h":264},
+	"sourceSize": {"w":499,"h":264}
+},
+{
+	"filename": "punker/animation/01.png",
+	"frame": {"x":0,"y":1228,"w":255,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":347},
+	"sourceSize": {"w":255,"h":347}
+},
+{
+	"filename": "punker/animation/02.png",
+	"frame": {"x":255,"y":1228,"w":255,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":347},
+	"sourceSize": {"w":255,"h":347}
+},
+{
+	"filename": "punker/animation/03.png",
+	"frame": {"x":510,"y":1228,"w":255,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":347},
+	"sourceSize": {"w":255,"h":347}
+},
+{
+	"filename": "punker/animation/04.png",
+	"frame": {"x":765,"y":1228,"w":255,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":347},
+	"sourceSize": {"w":255,"h":347}
+},
+{
+	"filename": "rocker/animation/0001.png",
+	"frame": {"x":0,"y":1575,"w":235,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":345},
+	"sourceSize": {"w":235,"h":345}
+},
+{
+	"filename": "rocker/animation/0002.png",
+	"frame": {"x":235,"y":1575,"w":235,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":345},
+	"sourceSize": {"w":235,"h":345}
+},
+{
+	"filename": "rocker/animation/0003.png",
+	"frame": {"x":470,"y":1575,"w":235,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":345},
+	"sourceSize": {"w":235,"h":345}
+},
+{
+	"filename": "rocker/animation/0004.png",
+	"frame": {"x":705,"y":1575,"w":235,"h":345},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":345},
+	"sourceSize": {"w":235,"h":345}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "rock_anim.png",
+	"format": "RGBA8888",
+	"size": {"w":1020,"h":1920},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:482b68a4786f1d89827b94cac2a3eddb:62ed15224535a68f44a506b95f85244b:57eb54ba2b00790efb41511a802a50b7$"
+}
+}
